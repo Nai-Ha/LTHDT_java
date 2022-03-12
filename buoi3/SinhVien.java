@@ -66,13 +66,13 @@ public class SinhVien {
 	public void in() {
 		System.out.println("["+MSSV+ ", " +hoTen+ ", " + ngaySinh+ "]"); 
 				for (int i=0; i<n; i++)
-					System.out.println(tenHP[i]+ ":" + " "+diemHP[i]);
+					System.out.println(tenHP[i]+ ":" + diemHP[i] + " ");
 	}
 
 		public String toString(){
 			String s = MSSV+ ", " +hoTen+ ", " + ngaySinh+ ", ";
 			for(int i=0; i<n; i++){
-				s = s + tenHP[i]+ ":" + " "+diemHP[i];
+				s = s + tenHP[i]+ ":" + diemHP[i]+" ";
 			}
 
 			return "[" +s+ "]";
