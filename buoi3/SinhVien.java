@@ -132,7 +132,7 @@ public class SinhVien {
 		public String layTen(){
 			String ten = hoTen.trim();
 			int k = ten.lastIndexOf(" ");
-			return ten.substring(+1);
+			return ten.substring(k+1);
 		}
 		
 		public String layHoTen() {
