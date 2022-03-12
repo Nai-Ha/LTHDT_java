@@ -72,7 +72,7 @@ public class SinhVien {
 		public String toString(){
 			String s = MSSV+ ", " +hoTen+ ", " + ngaySinh+ ", ";
 			for(int i=0; i<n; i++){
-				s = s + tenHP[i]+ ":" +diemHP[i]+ ", ";
+				s = s + tenHP[i]+ ":" +diemHP[i];
 			}
 
 			return "[" +s+ "]";
