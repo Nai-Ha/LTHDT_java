@@ -64,6 +64,7 @@ public class SinhVien {
 	}
 	
 	public void in() {
+		System.out.println("\nThong tin sau khi nhap la: ");
 		System.out.println("["+MSSV+ ", " +hoTen+ ", " + ngaySinh+ "]"); 
 				for (int i=0; i<n; i++)
 					System.out.println(tenHP[i]+ ":" + diemHP[i] + " ");
