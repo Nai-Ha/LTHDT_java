@@ -134,15 +134,13 @@ public class SinhVien {
 				} 	
 			}
 			if( i < n){	// xoa mon hoc o vi tri i
-				for(int j=i; i<n; i++){
+				for(int j=i; j<n-1; j++){
 					tenHP[j] = tenHP[j+1];
 					diemHP[j] = diemHP[j+1];
 				}
 				n--;
 			}
 		}
-		
-
 		
 		
 		public Date ngSinh() {
