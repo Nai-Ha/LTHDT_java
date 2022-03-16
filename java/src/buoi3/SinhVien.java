@@ -46,7 +46,7 @@ public class SinhVien {
 		System.out.print("Nhap so Mon Hoc ");
 		n = sc.nextInt();
 
-		sc.nextLine(); 	// bo qua de nhap chuoi
+		sc.nextLine(); 	// bo ky tu Enter qua de nhap chuoi
 		for (int i=0; i<n; i++){
 			System.out.println(" Nhap mon hoc thu " + (i+1) + ": ");
 			tenHP[i] = sc.nextLine();
