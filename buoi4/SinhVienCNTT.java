@@ -6,8 +6,6 @@ import buoi3.SinhVien;
 
 	public class SinhVienCNTT extends SinhVien{
 		
-		public  Scanner sc = new Scanner(System.in);
-		
 		private String taikhoan, matkhau, email;
 		
 		public SinhVienCNTT(){
@@ -31,6 +29,7 @@ import buoi3.SinhVien;
 		
 		public void nhap(){
 			super.nhap();
+			Scanner sc = new Scanner(System.in);
 			System.out.println("Nhap tai khoan elcit: ");
 			taikhoan = sc.nextLine();
 			System.out.println("Nhap mat khau elcit: ");
