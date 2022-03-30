@@ -5,9 +5,7 @@ import java.util.Scanner;
 public abstract class ConVat {
 	
 	public abstract void keu();	// phuong thuc truu tuong
-
-	public static Scanner sc = new Scanner(System.in);
-
+	
 	private String giong, mauLong;
 	private float cnang;
 
@@ -30,6 +28,7 @@ public abstract class ConVat {
 	}
 
 	public void nhap(){
+		Scanner sc = new Scanner(System.in);
 		System.out.println("Nhap giong: ");
 		giong = sc.nextLine();
 		System.out.println("Nhap mau long: ");
