@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class SDConVat {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		ConVat d;
+		
 	//	d = new ConVat();  sai do vi pham dinh nghia (khong tao ra doi tuong)
 	
-		d = new Bo();
+		ConVat d = new Bo();
 		d.nhap();	//ConVat.nhap();
 		d.in();		//ConVat.in();
 		d.keu();	//Bo.keu();
@@ -18,7 +18,7 @@ public class SDConVat {
 	
 		
 		
-		System.out.println("Nhap so luong dong vat: ");
+		System.out.println("\nNhap so luong dong vat: ");
 		
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
